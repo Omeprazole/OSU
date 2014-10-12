@@ -1,0 +1,82 @@
+table, th, td {
+    border: 1px solid black;
+}
+
+th.first_column {
+  font-style: italic;
+  font-weight: normal;
+}
+
+td.second_column {
+  color: red;
+}
+
+td.forth_column {
+  color: blue;
+}
+
+dt:hover + dd {
+  background: purple;
+}
+
+.form_outer_box {
+    width: 530px;
+}
+
+.form_fields {
+    width: 500px;
+    margin-bottom: 10px;
+}
+
+.red {
+    background: red;
+    height: 100px;
+    width: 15%;
+    margin-top: 20px;
+    margin-left: 5%;
+    float: left;
+}
+
+.orange {
+    background: orange;
+    height: 100px;
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 30%;
+}
+
+.yellow {
+    background: yellow;
+    height: 200px;
+    width: 50px;
+    margin-top: 75px;
+    margin-left: 100px;
+    float: left;
+}
+
+.green {
+    background: green;
+    height: 200px;
+    width: 150px;
+    margin-top: 75px;
+    margin-left: 170px;
+}
+
+.blue {
+    background: blue;
+    height: 200px;
+    width: 50px;
+    margin-top: 75px;
+    float: right;
+}
+
+.indigo {
+    background: indigo;
+    height: 200px;
+    width: 150px;
+    margin-top: 75px;
+    margin-right: 100px;
+    margin-left: 20px;
+    float: right;
+}
+
